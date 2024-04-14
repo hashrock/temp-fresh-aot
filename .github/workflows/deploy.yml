@@ -30,6 +30,6 @@ jobs:
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: "hashrock-temp-fresh-79"
+          project: "hashrock-fresh-20240-58"
           entrypoint: "main.ts"
           root: "."
